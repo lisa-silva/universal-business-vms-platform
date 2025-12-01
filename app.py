@@ -14,7 +14,7 @@ const appId = typeof __app_id !== 'undefined' ? __app_id : 'default-app-id';
 const firebaseConfig = typeof __firebase_config !== 'undefined' ? JSON.parse(__firebase_config) : {};
 const initialAuthToken = typeof __initial_auth_token !== 'undefined' ? __initial_auth_token : null;
 
-// The central data path for this application's public data (Generalized)
+# The central data path for this application's public data (Generalized)
 const VMS_COLLECTION_PATH = `/artifacts/${appId}/public/data/universal_vms`;
 
 // Initialize Firebase App and Services
